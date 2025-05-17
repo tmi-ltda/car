@@ -1,0 +1,3 @@
+[submodule "lib/DCMotor"]
+	path = lib/DCMotor
+	url = https://github.com/tmi-ltda/dc-motor.git
