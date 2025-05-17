@@ -12,7 +12,7 @@ class Car {
   
   public:
     Car(car_config_t& config)
-      : _leftMotor(config.left_pin1, config.left_pin2), _rightMotor(config.right_pin1, config.right_pin2) _speed(4095) {}
+      : _leftMotor(config.left_pin1, config.left_pin2), _rightMotor(config.right_pin1, config.right_pin2), _speed(4095) {}
     
     void forward() {
       _leftMotor.forward();
