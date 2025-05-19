@@ -1,7 +1,7 @@
 #pragma once
 
 #include <car_config.h>
-#include <DCMotor.hpp>
+#include "../lib/DCMotor/src/DCMotor.hpp"
 #include <stdint.h>
 #include <Arduino.h>
 
