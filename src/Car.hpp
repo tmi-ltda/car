@@ -25,13 +25,13 @@ class Car {
     }
 
     void left() {
-      _leftMotor.backward();
+      _leftMotor.stop();
       _rightMotor.forward();
     }
 
     void right() {
       _leftMotor.forward();
-      _rightMotor.backward();
+      _rightMotor.stop();
     }
 
     void stop() {
