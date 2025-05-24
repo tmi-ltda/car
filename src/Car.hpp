@@ -24,14 +24,24 @@ class Car {
       _right_motor.backward();
     }
 
-    void left() {
-      _left_motor.stop();
+    void differentialLeft() {
+      _left_motor.halfForward();
       _right_motor.forward();
     }
 
-    void right() {
+    void differentialRight() {
       _left_motor.forward();
-      _right_motor.stop();
+      _right_motor.halfForward();
+    }
+
+    void axialLeft() {
+      _left_motor.backward();
+      _right_motor.forward();
+    }
+
+    void axialRight() {
+      _left_motor.forward();
+      _right_motor.backward();
     }
 
     void stop() {
