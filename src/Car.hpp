@@ -56,4 +56,12 @@ class Car {
       _left_motor.setMaxPower(power);
       _right_motor.setMaxPower(power);
     }
+
+    void setLeftSpeed(uint16_t speed) {
+      _left_motor.setSpeed(speed);
+    }
+
+    void setRightSpeed(uint16_t speed) {
+      _right_motor.setSpeed(speed);
+    }
 };
